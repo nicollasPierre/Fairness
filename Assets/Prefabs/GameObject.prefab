@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1483037723956778}
+  m_IsPrefabAsset: 1
+--- !u!1 &1483037723956778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4317175400937554}
+  - component: {fileID: 114354676685993032}
+  - component: {fileID: 114910544676257784}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4317175400937554
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1483037723956778}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114354676685993032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1483037723956778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c677e9f959fb334389be5ab9aaa15ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapLenght: 15
+  mapHeight: 3
+  columns: 3
+  rows: 15
+  foodCount:
+    minimum: 1
+    maximum: 5
+  exit: {fileID: 0}
+  floorTiles:
+  - {fileID: 1161068237210338, guid: 732bfa47ccb91b34f9acaf3893f7ae21, type: 2}
+  - {fileID: 1616073442010322, guid: a6cd7c8f4722da042819911916a283b7, type: 2}
+  wallTiles:
+  - {fileID: 1947270995542442, guid: 73633430500b88544861d4a6e52ce806, type: 2}
+  foodTiles: []
+  enemyTiles: []
+  outerWallTiles:
+  - {fileID: 1466067707513996, guid: 86a4124fa52ec0546bf8e8f4a92d76a0, type: 2}
+--- !u!114 &114910544676257784
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1483037723956778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1130d9f587ab5d549bfbfee45e460d38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

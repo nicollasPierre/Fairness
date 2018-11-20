@@ -43,11 +43,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 3497187877
-    locked: 0
   - name: Sky
     uniqueID: 896601811
+    locked: 0
+  - name: Background
+    uniqueID: 3497187877
     locked: 0
   - name: Itens
     uniqueID: 1721933913
