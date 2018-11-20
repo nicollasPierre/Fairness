@@ -184,51 +184,71 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 5, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1209924621
-Prefab:
+--- !u!1 &818490310
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4684402949136870, guid: de7e7895a6971864e819d351e71937d2, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4684402949136870, guid: de7e7895a6971864e819d351e71937d2, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4684402949136870, guid: de7e7895a6971864e819d351e71937d2, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4684402949136870, guid: de7e7895a6971864e819d351e71937d2, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4684402949136870, guid: de7e7895a6971864e819d351e71937d2, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4684402949136870, guid: de7e7895a6971864e819d351e71937d2, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4684402949136870, guid: de7e7895a6971864e819d351e71937d2, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4684402949136870, guid: de7e7895a6971864e819d351e71937d2, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: de7e7895a6971864e819d351e71937d2, type: 2}
-  m_IsPrefabAsset: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 818490312}
+  - component: {fileID: 818490311}
+  - component: {fileID: 818490313}
+  m_Layer: 0
+  m_Name: TileManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &818490311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 818490310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f852f8f746cef949a2e2f868fe7b6e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapLenght: 30
+  mapHeight: 3
+  floorTiles:
+  - {fileID: 1172251155762132, guid: 9cc3b0a42cd0cc748b0b2fce05141791, type: 2}
+  - {fileID: 1061855687354350, guid: d51ceb5787c32ee4d8f9bd4c40c7fb03, type: 2}
+  - {fileID: 1814023800389994, guid: 1eeeca2ea202182498744e94515b0992, type: 2}
+  - {fileID: 1786502996357448, guid: 4831d0a5cff20dd4da9dbeb2855c67f4, type: 2}
+  - {fileID: 1786502996357448, guid: 79b769598c47fd34bab93b4b6bf339c8, type: 2}
+  - {fileID: 1814023800389994, guid: 1753fda4728543f41b4958eb7ab5763a, type: 2}
+  plataformTiles: []
+--- !u!4 &818490312
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 818490310}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &818490313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 818490310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1130d9f587ab5d549bfbfee45e460d38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
