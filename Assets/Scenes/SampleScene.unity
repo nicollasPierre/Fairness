@@ -184,7 +184,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5, z: -20}
+  m_LocalPosition: {x: 10, y: 5, z: -40}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -218,16 +218,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f852f8f746cef949a2e2f868fe7b6e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapLenght: 30
+  mapLenght: 100
   mapHeight: 3
+  amountObjects: 5
   floorTiles:
-  - {fileID: 1172251155762132, guid: 9cc3b0a42cd0cc748b0b2fce05141791, type: 2}
-  - {fileID: 1061855687354350, guid: d51ceb5787c32ee4d8f9bd4c40c7fb03, type: 2}
-  - {fileID: 1814023800389994, guid: 1eeeca2ea202182498744e94515b0992, type: 2}
-  - {fileID: 1786502996357448, guid: 4831d0a5cff20dd4da9dbeb2855c67f4, type: 2}
-  - {fileID: 1786502996357448, guid: 79b769598c47fd34bab93b4b6bf339c8, type: 2}
-  - {fileID: 1814023800389994, guid: 1753fda4728543f41b4958eb7ab5763a, type: 2}
-  plataformTiles: []
+  - {fileID: 1250528662509848, guid: 74181d8b0ee840b46b41c8358ef59d1a, type: 2}
+  - {fileID: 1085022985530428, guid: 1dd899f903eed6f44a537f07630f24e8, type: 2}
+  - {fileID: 1523422073691668, guid: 8878e5c181faa9c40b0ae4490bcb9fb3, type: 2}
+  - {fileID: 1103394343460698, guid: 8b44d9f0542d65d4db615c577b61298c, type: 2}
+  plataformTiles:
+  - {fileID: 1603128732281382, guid: ecbc67e0d324edc4cb317cc4da4b7177, type: 2}
+  - {fileID: 1190714547605880, guid: 23925e7fc289eca478506c86605f65a3, type: 2}
+  backgroundImages:
+  - {fileID: 1615824993972340, guid: f553fc71b5045974bb2fb01119223954, type: 2}
 --- !u!4 &818490312
 Transform:
   m_ObjectHideFlags: 0
@@ -235,7 +238,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 818490310}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15, y: 0, z: 0}
+  m_LocalPosition: {x: 20, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
