@@ -125,6 +125,7 @@ PlayerSettings:
   m_HolographicPauseOnTrackingLoss: 1
   xboxOneDisableKinectGpuReservation: 0
   xboxOneEnable7thCore: 0
+  isWsaHolographicRemotingEnabled: 0
   vrSettings:
     cardboard:
       depthFormat: 0
@@ -617,9 +618,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 15e91a0c-ea75-41f2-b3c4-33bdba3fb159
+  cloudProjectId: 5c8f67e9-ab76-4fa2-99ef-d27ea9869928
   projectName: Fairness
-  organizationId: nicollaspierre
+  organizationId: paulo_piva
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

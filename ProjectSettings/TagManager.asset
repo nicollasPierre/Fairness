@@ -15,8 +15,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Ground
+  - Door
   - 
   - 
   - 
@@ -57,4 +57,13 @@ TagManager:
     locked: 0
   - name: Blocks
     uniqueID: 4021419755
+    locked: 0
+  - name: Platformas
+    uniqueID: 3730559153
+    locked: 0
+  - name: Door
+    uniqueID: 4002562213
+    locked: 0
+  - name: Player
+    uniqueID: 3583052911
     locked: 0
